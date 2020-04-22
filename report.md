@@ -13,32 +13,32 @@
 
 
 В качестве источника тестовых данных использовались данные составленные согласно требованиям Задачи №1 артефакта "Домашнее задание к занятию «2.4. Циклы, параметризованные тесты и аннотации»":
-* Метод StatsServiceTest.calcSum:
+- [ ] Метод StatsServiceTest.calcSum:
  - 'Right data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 180
  - 'Wrong data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 181
  - 'Equal data'; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 120
  - 'Zero data'; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0
-* Метод StatsServiceTest.calcAverage:
+- [ ] Метод StatsServiceTest.calcAverage:
  - 'Right data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 15
  - 'Wrong data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 18
  - 'Equal data'; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10
  - 'Zero data'; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0
-* Метод StatsServiceTest.monthMax:
+- [ ] Метод StatsServiceTest.monthMax:
  - 'Right data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 8
  - 'Wrong data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 1
  - 'Equal data'; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 12
  - 'Zero data'; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 12
-* Метод StatsServiceTest.monthMin:
+- [ ] Метод StatsServiceTest.monthMin:
  - 'Right data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 9
  - 'Wrong data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 1
  - 'Equal data'; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 12
  - 'Zero data'; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 12
-* Метод StatsServiceTest.monthLessAverage:
+- [ ] Метод StatsServiceTest.monthLessAverage:
  - 'Right data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 5
  - 'Wrong data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 6
  - 'Equal data'; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 0
  - 'Zero data'; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0
-* Метод StatsServiceTest.monthMoreAverage:
+- [ ] Метод StatsServiceTest.monthMoreAverage:
  - 'Right data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 5
  - 'Wrong data from task'; 8; 15; 13; 15; 17; 20; 19; 20; 7; 14; 14; 18; 6
  - 'Equal data'; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 10; 0
@@ -49,6 +49,6 @@
 * Java: openjdk version "11.0.6" 2020-01-14
    OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.6+10)
    OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.6+10, mixed mode)
-* Файл исходного текста тестируемого класса StatsService: 
-* Файл исходного текста класса StatsServiceTest: 
-* Файл настройки проекта Maven: 
+* Файл исходного текста тестируемого класса StatsService: https://github.com/VeraOm/JavaHW6Task1/blob/master/src/main/java/ru/netology/stats/StatsService.java
+* Файл исходного текста класса StatsServiceTest: https://github.com/VeraOm/JavaHW6Task1/blob/master/src/test/java/ru/netology/stats/StatsServiceTest.java
+* Файл настройки проекта Maven: https://github.com/VeraOm/JavaHW6Task1/blob/master/pom.xml
